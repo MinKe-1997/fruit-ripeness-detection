@@ -22,7 +22,7 @@ def main():
     )
     # Step 2: 初始化模型并训练
     train_tomato_ripeness_model(data_yaml='dataset_yolo/tomato_ripeness.yaml',
-                                epochs=5)
+                                epochs=50)
     # 推理检测，支持图像或目录
     detect_tomato_ripeness(
         model_path='runs/tomato_ripeness/weights/best.pt',
