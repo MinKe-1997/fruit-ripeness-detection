@@ -1,0 +1,4 @@
+ultralytics~=8.3.154
+PyYAML~=6.0.2
+pillow~=11.2.1
+kagglehub~=0.3.12
